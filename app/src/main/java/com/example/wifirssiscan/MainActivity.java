@@ -38,11 +38,10 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
 
 //    Lista com os BSSID's (endereço MAC) que desejamos evidenciar nas medidas
-    private List<String> knownBssid = Arrays.asList(new String[]{
-            "f4:54:20:5d:4c:3f",
-            "f4:54:20:5d:4c:3e",
-            "c8:5a:9f:e8:e2:c7"
-    });
+    private List<String> knownBssid = Arrays.asList(
+        "f4:54:20:5d:4c:3f",
+        "f4:54:20:5d:4c:3e",
+        "c8:5a:9f:e8:e2:c7");
 
 
     private WifiManager wifiManager;
