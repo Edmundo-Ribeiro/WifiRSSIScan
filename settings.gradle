@@ -1,0 +1,2 @@
+rootProject.name='WifiRSSIScan'
+include ':app'
